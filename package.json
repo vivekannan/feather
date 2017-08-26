@@ -1,0 +1,27 @@
+{
+  "name": "feather",
+  "version": "1.0.0",
+  "description": "Light-weight, zero-dependency feature toggler library.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- --timeout 3000 test/*.js"
+  },
+  "keywords": [
+    "toggler",
+    "feature",
+    "feather",
+    "nodejs",
+    "node",
+    "js"
+  ],
+  "author": "vivekkannan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0"
+  }
+}
